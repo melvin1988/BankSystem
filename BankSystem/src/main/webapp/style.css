@@ -1,0 +1,206 @@
+@charset "ISO-8859-1";
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   text-decoration: none;
+   list-style: none;
+}
+
+body {
+	height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banksystembg.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 0 0 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    background: #1d84f2;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    left: 160px;
+}
+
+button:hover {
+    background: #0469d5;
+}
+
+button:active {
+    background: #4258b2;
+}
+
+button a {
+    text-align: center;
+    color: white;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr  {
+	background-color: #00A36C;
+    color: white;
+}
+
+th, td {
+	padding: 12px 15px;
+	text-align: left;
+}
+
+table tbody tr {
+	border-bottom: 1px solid #dddddd;
+	background-color: white;
+}
+
+ul.list {
+    text-align: center;
+}
+
+ul.list li {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+ul.list li input {
+    width: 250px;
+    text-align: center;
+    padding: 8px 0;
+    border: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+ul.list li input[type="submit"] {
+    background-color: #4690fb;
+    color: white;
+}
+
+ul.list li#forget a {
+	color: red;
+	font-size: 14px;
+}
+
+.form-container {
+	padding-top: 20vh;
+    width: 250px;
+    height: auto;
+    padding: 40px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+    position: relative;
+}
+
+.solo-div {
+	text-align: center;
+	padding-top: 15vh;
+}
+
+.top-div {
+	float: right;
+	padding: 20px 20px;
+}
+
+.mid-div {
+	text-align: center;
+	padding-top: 5vh;
+}
+
+.bottom-div {
+	text-align: center;
+	padding-top: 5vh;
+}
+
+.hello {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	right: 40px;
+}
+
+.invalid {
+	color: red;
+}
+
+.success {
+	height: 90px;
+	width: 90px;
+	padding: 0 0 20px 0;
+}
+
+.social-media {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#facebook, #instagram, #twitter {
+	height: 50px;
+	width: 50px;
+}
+
+#facebook {
+	padding: 0 15px 15px 0;
+}
+
+#instagram {
+	padding: 0 15px 15px 0;
+}
+
+#twitter {
+	padding: 0 25px 15px 0;
+}

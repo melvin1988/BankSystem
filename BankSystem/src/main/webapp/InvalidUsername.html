@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Invalid Username</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <nav>
+      <label class="logo">iBank Singapore</label>
+    </nav>
+</div>
+<div class="mid-div">
+	<h3 class="invalid">Invalid username<br>You may wish to try again or<br>Contact customer service at 1800-800-8800</h3>
+</div>
+<div class="bottom-div">
+	<div class="form-container">
+		<form action="/BankSystem/Login">
+			<ul class="list">
+	            <li><h2>Login</h2></li>
+	            <li><input type="text" name="username" placeholder="Username" required></li>
+	            <li><input type="password" name="password" placeholder="Password" required></li>
+	            <li><input type="submit" value="Login"></li>
+	            <li id="forget">
+		            <a href="/BankSystem/Forget.html">Forget username or password?</a><br>
+		            <a href="/BankSystem/Register.html">Don't have an account?</a>
+	            </li>
+	        </ul>
+		</form>
+	</div>
+</div>
+</body>

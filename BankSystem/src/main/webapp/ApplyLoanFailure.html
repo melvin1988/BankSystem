@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Apply Loan Failure</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <nav>
+      <label class="logo">iBank Singapore</label>
+      <ul>
+      	<li><a href="/BankSystem/LoginSuccess.jsp">Home</a></li>
+        <li><a href="/BankSystem/ChangePasswordLinkSent">Change Password</a></li>
+        <li><a href="/BankSystem/ApplyLoan.html">Apply Loan</a></li>
+        <li><a href="/BankSystem/ViewBalance">View Balance</a></li>
+        <li><a href="/BankSystem/Transfer.html">Transfer</a></li>
+        <li><a href="/BankSystem/TransactionHistory.html">Transaction History</a></li>
+        <li><a href="/BankSystem/Logout">Logout</a></li>
+      </ul>
+    </nav>
+</div>
+<div class="mid-div">
+	<h3 class="invalid">Loan application failed<br>You may wish to try again or<br>Contact customer service at 1800-800-8800</h3>
+</div>
+<div class="bottom-div">
+	<div class="form-container">
+		<form action="/BankSystem/ApplyLoan">
+			<ul class="list">
+	            <li><h2>Apply Loan</h2></li>
+	            <li><input type="number" min="100" step="10" name="transactionType" placeholder="Loan amount" required></li>
+	            <li><input type="submit" value="Apply"></li>
+	        </ul>
+	    </form>
+	</div>
+</div>
+</body>
+</html>
